@@ -1,4 +1,5 @@
-import { Header } from './components/Header/Header'
+import { Header } from './components/header/Header'
+import { Itens } from './components/itens/Itens'
 import { Search } from './components/search/Search'
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
     <div>
       <Header/>
       <Search />
+      <Itens />
     </div>
   
   )

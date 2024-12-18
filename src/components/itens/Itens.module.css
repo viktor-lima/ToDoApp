@@ -1,0 +1,36 @@
+.container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.countContent {
+  display: flex;
+  justify-content: space-between; 
+  width: 36rem;
+  margin-top: 2rem;
+}
+
+.countItem {
+  display: flex;
+  align-items: center; 
+  justify-content: space-between;
+  gap: 5px; 
+}
+
+span {
+  font-size: 16px; /* Ajuste o tamanho do texto, se necessário */
+  color: var(--blue); /* Cor opcional */
+}
+
+p {
+  font-size: 16px; /* Ajuste o tamanho do texto */
+  font-weight: bold; /* Destaque para o número */
+  color: var(--gray-100); /* Cor do texto */
+  background-color: var(--gray-400); /* Fundo arredondado */
+  border-radius: 20px; /* Para o número único */
+  padding: 0 0.5rem; /* Espaço interno dinâmico */
+  display: inline-block; /* Garante que o tamanho ajuste ao conteúdo */
+  text-align: center; /* Centraliza o texto */
+  white-space: nowrap; /* Evita quebra de texto */
+}
