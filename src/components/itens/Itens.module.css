@@ -1,5 +1,5 @@
 .container {
-  display: flex;
+  display: grid;
   justify-content: center;
   width: 100%;
 }
@@ -18,12 +18,12 @@
   gap: 5px; 
 }
 
-span {
+.countItem span {
   font-size: 16px; /* Ajuste o tamanho do texto, se necessário */
   color: var(--blue); /* Cor opcional */
 }
 
-p {
+.countItem p {
   font-size: 16px; /* Ajuste o tamanho do texto */
   font-weight: bold; /* Destaque para o número */
   color: var(--gray-100); /* Cor do texto */
@@ -33,4 +33,15 @@ p {
   display: inline-block; /* Garante que o tamanho ajuste ao conteúdo */
   text-align: center; /* Centraliza o texto */
   white-space: nowrap; /* Evita quebra de texto */
+}
+.content {
+  display: grid;
+  justify-content: center;
+  width: 100%;
+  margin-top: 4rem;
+}
+
+.clipboard {
+  display: grid;
+  justify-content: center;
 }

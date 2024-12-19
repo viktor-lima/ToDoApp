@@ -1,4 +1,6 @@
 import styles from './Itens.module.css'
+import clipboard from "../../assets/clipboard.svg"
+
 
 export function Itens() {
 
@@ -21,6 +23,19 @@ export function Itens() {
               {`${0} de ${5}`}
             </p>
           </div>
+      </div>
+      <div className={styles.content}>
+        <img className={styles.clipboard} src={clipboard} alt="" />
+      </div>
+      <div>
+        <div style={{display:'grid', marginTop: '3rem', justifyContent: 'center'}}>
+          <p>
+            {'Você ainda não tem tarefas cadastradas'}
+          </p>
+          <p>
+           {'Crie tarefas e organize seus itens a fazer'}
+          </p>
+        </div>
       </div>
     </div>
   )
